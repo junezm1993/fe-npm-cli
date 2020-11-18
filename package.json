@@ -1,0 +1,22 @@
+{
+  "name": "@sjk/fe-npm-cli",
+  "version": "1.0.1",
+  "main": "bin/fe",
+  "repository": "git@git.teammark.cn:teammark/fe-npm-cli.git",
+  "license": "MIT",
+  "bin": {
+    "tmc": "./bin/fe"
+  },
+  "author": "sjk-fe",
+  "dependencies": {
+    "buffer-from": "^1.1.1",
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "metalsmith": "^2.3.0",
+    "ora": "^5.1.0",
+    "prettier": "^2.1.2",
+    "rimraf": "^3.0.2"
+  }
+}
